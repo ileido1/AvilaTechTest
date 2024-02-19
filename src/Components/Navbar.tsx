@@ -5,11 +5,11 @@ import { NavbarProps } from "../types.d";
  
 
 
-
+// Función de utilidad para aplicar clases de CSS condicionalmente
 function classNames(...classes : (string | boolean)[]) {
   return classes.filter(Boolean).join(" ");
 }
-
+// Componente funcional para la barra de navegación (Navbar)
 export const  Navbar: React.FC<NavbarProps> = ({navigation}) => {
   return (
     <Disclosure as="nav" className="">

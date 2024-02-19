@@ -1,10 +1,9 @@
-export const Logo = (props: any) => (
+export const Logo = () => (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width={145}
       height={38}
       fill="none"
-      {...props}
     >
       <g filter="url(#a)">
         <g clipPath="url(#b)">
