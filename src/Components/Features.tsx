@@ -1,33 +1,9 @@
+import { FeaturesData } from "../Const";
 import { ToolsList } from "./Tools";
-import DeliverInstant from "../assets/Deliver.png";
-import Manage from "../assets/Manage.png";
-import ShareTeamBox from "../assets/Share.png";
+
 
 export function Features () {
-    const tools = [
-        {
-          name: "Share team inboxes",
-          description:
-            "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
-          img: ShareTeamBox,
-          url: "#",
-        },
-        {
-          name: "Deliver instant answers",
-          description:
-            "An all-in-one customer service platform that helps you balance everything your customers need to be happy.",
-          img: DeliverInstant,
-          url: "#",
-        },
-        {
-          name: "Manage your team with reports",
-          description:
-            "Measure what matters with Untitled’s easy-to-use reports. You can filter, export, and drilldown on the data in a couple clicks.",
-          img: Manage,
-          url: "#",
-        },
-        
-      ];
+   
   return (
     <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8  sm:mt-8">
       <div className="flex justify-center flex-col items-center text-center">
@@ -41,7 +17,7 @@ export function Features () {
         Powerful, self-serve product and growth analytics to help you convert, engage, and retain more users. Trusted by over 4,000 startups.
         </p>
       </div>
-      <ToolsList tools={tools} />
+      <ToolsList tools={FeaturesData} />
     </div>
   );
 }

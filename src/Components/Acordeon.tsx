@@ -1,8 +1,9 @@
 import { Disclosure } from "@headlessui/react";
 import { Plus } from "./svg/plus";
 import { Minus } from "./svg/minus";
+import { AcordeonProps } from "../types.d";
 
-export function Acordeon({ question, answer, firstquestion }) {
+export function Acordeon({ question, answer, firstquestion } : AcordeonProps) {
     return (
         <div className="border-b border-[#EAECF0] w-4/5 py-4 ">
       <Disclosure defaultOpen={firstquestion === 0} >

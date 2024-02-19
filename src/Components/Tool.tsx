@@ -1,6 +1,7 @@
+import { ToolProps } from "../types.d";
 import Arrow from "./svg/Arrow";
 
-export function Tool ({ tool }) {
+export const Tool: React.FC<ToolProps> = ({ tool }) => {
   return (
     <div className="flex flex-col items-center justify-center gap-6 mt-3">
       <img src={tool.img} alt={tool.name} className="w-12 h-12" />

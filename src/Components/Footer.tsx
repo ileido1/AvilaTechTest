@@ -1,32 +1,7 @@
+import { SITEMAP } from "../Const";
 import Apple from "./svg/AppleStore";
 import { Logo } from "./svg/Logo";
 import PlayStore from "./svg/PlayStore";
-
-const SITEMAP = [
-    {
-      title: "Product",
-      links: [
-        { name: "Overview", badge: null },
-        { name: "Features", badge: null },
-        { name: "Solutions", badge: "New" },
-        { name: "Tutorials", badge: null },
-        { name: "Pricing", badge: null },
-        { name: "Releases", badge: null },
-      ],
-    },
-    {
-      title: "Company",
-      links: [
-        { name: "About us", badge: null },
-        { name: "Careers", badge: null },
-        { name: "Press", badge: null },
-        { name: "News", badge: null },
-        { name: "Media kit", badge: null },
-        { name: "Contact", badge: null },
-      ],
-    },
-  ];
- 
 const currentYear = new Date().getFullYear();
  
 export function Footer() {

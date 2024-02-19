@@ -1,19 +1,16 @@
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Logo } from "./svg/Logo";
+import { NavbarProps } from "../types.d";
+ 
 
-const navigation = [
-  { name: "Home", href: "#", current: true },
-  { name: "Products", href: "#", current: false },
-  { name: "Resources", href: "#", current: false },
-  { name: "Pricing", href: "#", current: false },
-];
 
-function classNames(...classes) {
+
+function classNames(...classes : (string | boolean)[]) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Navbar() {
+export const  Navbar: React.FC<NavbarProps> = ({navigation}) => {
   return (
     <Disclosure as="nav" className="">
       {({ open }) => (

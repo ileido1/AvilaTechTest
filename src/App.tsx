@@ -5,15 +5,16 @@ import { Footer } from './Components/Footer'
 import { FreeTrial } from './Components/FreeTrial'
 import  Hero  from './Components/Hero'
 import  Integrations  from './Components/Integrations'
-import Navbar from './Components/Navbar'
+import {Navbar} from './Components/Navbar'
 import { Questions } from './Components/Questions'
 import { Testimonial } from './Components/Testimonial'
+import navigation from "./Const"; 
 
 function App() {
 
   return (
     <>
-      <Navbar />
+      <Navbar navigation={navigation}/>
       <Hero />
       <Integrations/>
       <Cta/>
