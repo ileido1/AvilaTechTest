@@ -16,7 +16,7 @@ export function Testimonial() {
             <p className="text-white font-semibold text-base sm:text-xl max-w-3xl">
             — Renee Wells
             </p>
-            <p className="text-[#E9D7FE] text-base sm:text-sm max-w-3xl">
+            <p className="text-[#E9D7FE] text-base font-normal sm:text-sm max-w-3xl">
             Product Designer, Quotient
             </p>
             
