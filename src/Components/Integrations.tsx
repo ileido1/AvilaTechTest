@@ -1,6 +1,7 @@
 
 import { ToolsList } from "./Tools";
 import { toolsData } from "../Const";
+// Componente funcional para la sección de integraciones
 export default function Integrations() {
  
   return (
@@ -18,7 +19,7 @@ export default function Integrations() {
           available in our directory, your team’s favourite tools are just a
           click away.
         </p>
-
+{/* Lista de herramientas renderizada con el componente ToolsList */}
         <ToolsList tools={toolsData}/>
       </div>
     </div>

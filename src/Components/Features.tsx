@@ -10,7 +10,7 @@ export function Features () {
         <span className="inline-flex items-center rounded-md bg-[#F9F5FF] px-2 py-1 text-xs font-medium text-[#6941C6] ring-1 ring-inset ring-gray-500/10">
           Features
         </span>
-        <h1 className="text-black sm:leading-[90px] text-3xl mt-4 sm:text-4xl font-semibold leading-12">
+        <h1 className="text-[#101828] sm:leading-[90px] text-3xl mt-4 sm:text-4xl font-semibold leading-12">
         Cutting-edge features for advanced analytics
         </h1>
         <p className="text-[#475467] text-base sm:text-xl max-w-3xl">

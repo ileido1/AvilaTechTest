@@ -16,7 +16,7 @@ export function FreeTrial() {
     <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 mt-36 mb-36 bg-[#F9FAFB]">
       <div className="grid grid-cols-1 sm:grid-cols-12  py-11 ">
         <div className="flex flex-col  sm:col-span-6  p-10  gap-6 justify-center">
-          <h1 className="text-black text-3xl sm:text-4xl font-semibold">
+          <h1 className="text-[#101828] text-3xl sm:text-4xl font-semibold">
             No long-term contracts. <br></br>No catches.
           </h1>
           <p className="text-[#475467] text-base sm:text-xl max-w-3xl">
