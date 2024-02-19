@@ -4,7 +4,7 @@ import HelpIcon from "./svg/Help";
 export default function Hero() {
   return (
     <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8   mt-8">
-      <div className="bg-[#53389E] text-center flex justify-center items-center flex-col rounded-3xl px-3 sm:px-24 py-8 pb-32 sm:pb-40">
+      <div className="bg-[#53389E] text-center flex justify-center items-center flex-col rounded-3xl px-3 sm:px-24 py-12 pb-32 sm:pb-40 sm:pt-20">
         <div className="gap-6 mb-5">
           <h1 className="text-white sm:leading-[90px] text-4xl sm:text-7xl font-semibold leading-12">
             Grow your users. <br></br>{" "}
