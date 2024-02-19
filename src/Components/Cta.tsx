@@ -30,7 +30,7 @@ export function Cta() {
             </div>
           </div>
   
-          <div className="sm:col-span-4 bg-white p-6 bg-cover bg-center rounded-b-3xl sm:rounded-bl-none sm:rounded-r-3xl h-screen sm:h-auto" style={{ backgroundImage: `url(${bg})` }}>
+          <div className="sm:col-span-4 bg-white p-6 bg-cover bg-center rounded-b-3xl sm:rounded-bl-none sm:rounded-r-3xl h-72  sm:h-auto" style={{ backgroundImage: `url(${bg})` }}>
            
           </div>
         </div>
