@@ -40,7 +40,7 @@ export default function Hero() {
 
               <a
                 className={
-                  " hover:bg-gray-700 hover:text-white bg-[#7F56D9] text-white rounded-md m-2 mb-0 mt-0 px-5 py-3 text-sm font-medium cursor-pointer"
+                  "transition-transform hover:scale-105 hover:text-white bg-[#7F56D9] text-white rounded-md m-2 mb-0 mt-0 px-5 py-3 text-sm font-medium cursor-pointer"
                 }
               >
                 Get started

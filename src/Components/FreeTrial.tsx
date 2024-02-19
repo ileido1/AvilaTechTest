@@ -25,14 +25,14 @@ export function FreeTrial() {
           <div className="mt-10 flex flex-col sm:flex-row">
             <a
               className={
-                "order-last sm:order-first bg-white text-center text-[#344054] rounded-md m-2 px-3 py-3 text-base font-medium cursor-pointer"
+                "transition-transform hover:scale-105 order-last sm:order-first bg-white text-center text-[#344054] rounded-md m-2 px-3 py-3 text-base font-medium cursor-pointer"
               }
             >
               Learn more
             </a>
             <a
               className={
-                "order-first sm:order-last bg-[#7F56D9] text-center text-white rounded-md m-2 px-3 py-3 text-base font-medium cursor-pointer"
+                "transition-transform hover:scale-105 order-first sm:order-last bg-[#7F56D9] text-center text-white rounded-md m-2 px-3 py-3 text-base font-medium cursor-pointer"
               }
             >
               Get started
